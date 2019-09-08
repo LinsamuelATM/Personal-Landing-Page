@@ -27,7 +27,7 @@ export default class About extends Component {
                             <h2 class="display-4 name2"> Samuel Lin.</h2>
                             <hr class="light"/>
                             <p>I am currently a fouth year student at the University of British Columbia majoring in Mathematics and minoring in Commerce. 
-                                I thrive towards becoming a person with the mind of mathematician , the technical skills of a software developer. 
+                                I thrive towards becoming a person with the mind of a mathematician , the technical skills of a software developer. 
                                 I believe the combination of both can allow me to contribute and build applications that can be valued. </p>
                             <p>I am looking for opportunities as a developer. Lets get in touch! </p>
                             <Button variant="outline-secondary" href="/connect">Connect</Button>
