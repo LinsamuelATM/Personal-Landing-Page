@@ -1,0 +1,55 @@
+.aa1{
+    color: black;
+    padding:8%;
+    
+}
+
+
+
+.profile1{
+    height:50%;
+    width: 45%;
+    box-shadow: 30px 30px lightblue;
+    position: relative;
+    right: -250px;
+    top: 70px;
+}
+
+.backgroundt{
+    position: relative;
+    left: -70px;
+}
+
+.name{
+    color: #82BBB5;
+
+}
+
+.name2{
+    
+    color:#CA884B;
+}
+
+.profile2{
+    top: 30px;
+    right: -50px;
+    position: relative;
+    height:90%;
+    width: 65%;
+    box-shadow: 30px 30px lightpink;
+}
+
+.workt{
+    top: 30px;
+    position: relative;
+    left: 40px;
+}
+
+.name3{
+    color: #CA884B;
+}
+
+
+
+
+
