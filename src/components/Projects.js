@@ -51,7 +51,7 @@ export default class Project extends Component {
 
                     <div class="item3">
                     <h2 class=" Pro2">  <FontAwesomeIcon icon={ faStar} />  Star Social Web application </h2>
-                                <p>This is a social Web application where the user can create groups/fourem and discuss different topics about space.
+                                <p>This is a social Web application where the user can create groups/forum and discuss different topics about space.
                                     This project utilizes the built-in SQLite datebase in Dijango and the models library. 
                                     The front-end of the project is built using templates library.
                                     </p>

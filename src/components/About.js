@@ -29,7 +29,7 @@ export default class About extends Component {
                             <p>I am currently a fouth year student at the University of British Columbia majoring in Mathematics and minoring in Commerce. 
                                 I thrive towards becoming a person with the mind of mathematician , the technical skills of a software developer. 
                                 I believe the combination of both can allow me to contribute and build applications that can be valued. </p>
-                            <p>I am looking for opportunities as a devloper. Lets get in touch! </p>
+                            <p>I am looking for opportunities as a developer. Lets get in touch! </p>
                             <Button variant="outline-secondary" href="/connect">Connect</Button>
                            </div>
                            
@@ -39,7 +39,7 @@ export default class About extends Component {
                         <div className="workt" >
                         <h2 class="name3">About me</h2>
                         <hr class="light"/>
-                        <p> I really enjoy learning about new materials every single day. Ranging from politics, computers, economics, biology, sociology, and even video gameing. 
+                        <p> I really enjoy learning about new materials every single day. Ranging from politics, computers, economics, biology, sociology, and even video gaming. 
                              I believe theres always something to be learned despite the intial purpose of the subject. As a developer, it is important to know what is going on in world 
                              and the problems we face in order to come up smarter and newer ideas. </p>
                              
