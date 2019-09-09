@@ -26,7 +26,6 @@ export default class Connect extends Component{
                     <div class="col-12 social padding connect">
                     <a href="https://www.facebook.com/samuel.lin.372"><FontAwesomeIcon className="i0" icon={faFacebookSquare} /></a>
                     <a href="https://www.linkedin.com/in/samuel-lin-40ba1a121/"><FontAwesomeIcon className="i2"icon={faLinkedin} /></a>
-                    <a href="https://www.youtube.com/"><FontAwesomeIcon className="i3"icon={faEnvelope} /></a>
                     <img src={Logo} alt="Logo" class="centeri"/>
                     </div>
                 </div>
