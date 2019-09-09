@@ -4,10 +4,10 @@ import React , {Component} from 'react'
 import './Home.css';
 import FadeIn from "react-fade-in";
 import {Carousel} from 'react-bootstrap';
-import img00 from '../00.jpg';
-import img11 from '../22.jpg';
-import img2 from '../2.jpg';
-import img3 from '../3.jpg';
+import img00 from '../assets/00.jpg';
+import img11 from '../assets/22.jpg';
+import img2 from '../assets/2.jpg';
+import img3 from '../assets/3.jpg';
 
 
 export default class Home extends Component {

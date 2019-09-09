@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons' 
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons' 
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import Logo from '../logo1.png';
+import Logo from '../assets/logo1.png';
 import {Container} from 'react-bootstrap';
 import FadeIn from "react-fade-in";
 

@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 import {Nav , Navbar}    from 'react-bootstrap';
-import Logo from '../logo.png'
+import Logo from '../assets/logo.png'
 
 class Navigation extends Component {
     render(){

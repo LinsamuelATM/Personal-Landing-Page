@@ -5,12 +5,12 @@ import { Container, Button} from 'react-bootstrap';
 import { faSearch , faStar , faDollarSign} from '@fortawesome/free-solid-svg-icons' ;
 import { faFilm} from '@fortawesome/free-solid-svg-icons' ;
 import './Project.css'
-import movierater from '../movierater.png'
-import movierater2 from '../movieRater2.png'
-import s1 from '../s1.png'
-import s2 from '../s2.png'
-import s3 from '../s3.png'
-import s4 from '../s4.png'
+import movierater from '../assets/movierater.png'
+import movierater2 from '../assets/movieRater2.png'
+import s1 from '../assets/s1.png'
+import s2 from '../assets/s2.png'
+import s3 from '../assets/s3.png'
+import s4 from '../assets/s4.png'
 
 
 export default class Project extends Component {

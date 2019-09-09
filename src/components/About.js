@@ -2,8 +2,8 @@ import React , {Component} from 'react'
 import FadeIn from "react-fade-in";
 import {Container, Row , Col, Button} from 'react-bootstrap';
 import './About.css';
-import Profile2 from '../profile2.jpg';
-import Profile from '../profile.jpg';
+import Profile2 from '../assets/profile2.jpg';
+import Profile from '../assets/profile.jpg';
 
 export default class About extends Component {
     render(){
@@ -29,7 +29,7 @@ export default class About extends Component {
                             <p>I am currently a fouth year student at the University of British Columbia majoring in Mathematics and minoring in Commerce. 
                                 I thrive towards becoming a person with the mind of a mathematician and the technical skills of a software developer. 
                                 I believe the combination of both can allow me to contribute and build applications that can be valued. </p>
-                            <p>I am looking for opportunities as a software developer. Lets get in touch! </p>
+                            <p>I am looking for opportunities as a software developer , data analyst, or UX/UI designer. Lets get in touch! </p>
                             <Button variant="outline-secondary" href="/connect">Connect</Button>
                            </div>
                            
