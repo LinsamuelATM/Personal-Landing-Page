@@ -27,9 +27,9 @@ export default class About extends Component {
                             <h2 class="display-4 name2"> Samuel Lin.</h2>
                             <hr class="light"/>
                             <p>I am currently a fouth year student at the University of British Columbia majoring in Mathematics and minoring in Commerce. 
-                                I thrive towards becoming a person with the mind of a mathematician , the technical skills of a software developer. 
+                                I thrive towards becoming a person with the mind of a mathematician and the technical skills of a software developer. 
                                 I believe the combination of both can allow me to contribute and build applications that can be valued. </p>
-                            <p>I am looking for opportunities as a developer. Lets get in touch! </p>
+                            <p>I am looking for opportunities as a software developer. Lets get in touch! </p>
                             <Button variant="outline-secondary" href="/connect">Connect</Button>
                            </div>
                            
@@ -39,13 +39,13 @@ export default class About extends Component {
                         <div className="workt" >
                         <h2 class="name3">About me</h2>
                         <hr class="light"/>
-                        <p> I really enjoy learning about new materials every single day. Ranging from politics, computers, economics, biology, sociology, and even video gaming. 
-                             I believe theres always something to be learned despite the intial purpose of the subject. As a developer, it is important to know what is going on in world 
+                        <p> I really enjoy learning about new materials every single day. Ranging from politics, computers, economics, biology, sociology, even video gaming. 
+                             I believe there is always something to be learned in any area of subjects. As a developer, it is important to know what is going on in world 
                              and the problems we face in order to come up smarter and newer ideas. </p>
                              
                         <p> A teacher once told me , "every single person in the world knows something that I don't know". 
-                            Knowing that has kept me humble and open minded no matter what my position is. 
-                             This mindset has not only helped me to become a better student/developer but also a better human being.  </p>
+                            Having this mindset has kept me humble and open minded no matter what my position is. 
+                            Not only has it helped me to become a better student and developer but also a better human being.  </p>
 
                         </div>
                         </Col>

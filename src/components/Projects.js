@@ -39,9 +39,9 @@ export default class Project extends Component {
                     </div>
                     <div class="item2">
                             <h2 class="Pro1">  <FontAwesomeIcon icon={faFilm} /> Movie Rater</h2>
-                            <p>This simple project uses Dijango for the back-end development that involves setting up models, security and the built-in SQLite database.
-                                The front end uses React which fetches the API and displays the information to the user. It also allows the web-application to be interactive. For example, 
-                                the user can rate or create more movies.  </p>
+                            <p>This simple project uses Dijango for the back-end development that involves setting up models, security, and the built-in SQLite database.
+                                The front end uses React which fetches the API and displays the information to the user. It also allows the web-application to be interactive with the users. For example, 
+                                the user is able to rate or create more movies.  </p>
                           
                             <p> Built with: React , Dijango , Postman , HTML/CSS </p>
                             <Button variant="outline-warning" href="/connect">Get in touch to learn more!</Button>
@@ -52,8 +52,10 @@ export default class Project extends Component {
                     <div class="item3">
                     <h2 class=" Pro2">  <FontAwesomeIcon icon={ faStar} />  Star Social Web application </h2>
                                 <p>This is a social Web application where the user can create groups/forum and discuss different topics about space.
-                                    This project utilizes the built-in SQLite datebase in Dijango and the models library. 
-                                    The front-end of the project is built using templates library.
+                                    This project is  built with Dijango and utilizes the built-in SQLite datebase. 
+                                    The front-end for this project is purely Django as well. Using the templte libary I am able to create different views for different features.
+                                    There is also a certain level of security incorporated into this project. By using the built-in admin feature only superusers of the application 
+                                    is able to login to the application. On the otherhand, new users are able to sign up.
                                     </p>
 
                                 <p> Built with:  Dijango</p>
@@ -70,9 +72,9 @@ export default class Project extends Component {
                     </div>
                     <div class="item5 ">
                     <h2 class="Pro3">  <FontAwesomeIcon icon={faDollarSign} />   Mock ATM Java program </h2>
-                            <p>A banking software programmed using Java and eclipse that utilizes the concepts of inheritance encapsulation, and polymorphism.
-                                The program allows the user to  set up different types of accounts, withdrawal and deposit with real time summary.
-                                This project allowed me to program with good habits such as structing my codes with high cohesion and loose coupling. </p>
+                            <p>A banking software programmed using Java and eclipse that utilizes the concepts of inheritance, encapsulation, and polymorphism.
+                                The program allows the user to set up different types of accounts, withdrawal , and deposit with real time summary.
+                                This project allowed me to program with good habits such as structuring my codes with high cohesion and loose coupling. </p>
 
                                 <p> Built with: Java</p>
                                 <Button variant="outline-success" href="/connect">Get in touch to learn more!</Button>
@@ -82,7 +84,7 @@ export default class Project extends Component {
                     <div class="item6">
                         <h2 class="Pro4">  <FontAwesomeIcon icon={faSearch} /> Video Search Engine</h2>
                             <p>A video search engine made from React that uses basic knowledge of state, props, axios, and event handlers.
-                            The search engine fetches Google’s Youtube API and presents the users with a list of videos. </p>
+                            The search engine fetches Google’s Youtube API and presents the users with a list of videos based on the keyword they searched. </p>
                             <p> Built with: React , HTML/CSS , Semantic UI </p>
                             <Button variant="outline-danger" href="/connect">Get in touch to learn more!</Button>
                            
