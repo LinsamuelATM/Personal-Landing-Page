@@ -35,8 +35,7 @@ export default class Connect extends Component{
             <div class="container-fluid padding text-center  info">
                 <hr class="light"/>
                 <p className="info">778-968-1495</p>
-                <p className="info">Samuel3218888@gmail.com</p>
-                <p className="info">2728 West 33rd Avenue</p>       
+                <p className="info">Samuel3218888@gmail.com</p>      
                 <p className="info">Vancouver , B.C. </p>         
             </div>
 
