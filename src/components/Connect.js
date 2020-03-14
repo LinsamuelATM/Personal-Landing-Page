@@ -1,9 +1,8 @@
 import React , {Component} from 'react';
 import './Connect.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons' 
+import { faFacebookSquare, faGithubAlt } from '@fortawesome/free-brands-svg-icons' 
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons' 
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import Logo from '../assets/logo1.png';
 import {Container} from 'react-bootstrap';
 import FadeIn from "react-fade-in";
@@ -26,6 +25,7 @@ export default class Connect extends Component{
                     <div class="col-12 social padding connect">
                     <a href="https://www.facebook.com/samuel.lin.372"><FontAwesomeIcon className="i0" icon={faFacebookSquare} /></a>
                     <a href="https://www.linkedin.com/in/samuel-lin-40ba1a121/"><FontAwesomeIcon className="i2"icon={faLinkedin} /></a>
+                    <a href="https://github.com/LinsamuelATM?tab=repositories"><FontAwesomeIcon className="i2"icon={faGithubAlt} /></a>
                     <img src={Logo} alt="Logo" class="centeri"/>
                     </div>
                 </div>
