@@ -25,6 +25,20 @@
 
 }
 
+.resume_button:hover{
+    color: white;
+
+}
+
+.resume{
+    color: #6c757d
+}
+
+.resume:hover{
+    color: white;
+    text-decoration: none;
+}
+
 .name2{
     
     color:#CA884B;
@@ -48,6 +62,25 @@
 .name3{
     color: #CA884B;
 }
+
+.vertical-timeline-element-icon {
+    left: 52% !important;
+    top: 12% !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.vertical-timeline.vertical-timeline-custom-line::before {
+    position: absolute;
+    right: 50%;
+    background:#DCDCDC  !important;
+  }
+
+  .vertical-timeline-element-content{
+      background: #EBECF0;
+  }
+
+
 
 
 

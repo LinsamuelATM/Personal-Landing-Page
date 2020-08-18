@@ -1,7 +1,10 @@
 .connect{
     background-image: url("../assets/c5.png");
-    background-size: 1500px 600px;
-    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-position-y: 0.75em;
+
 
 }
 .social {

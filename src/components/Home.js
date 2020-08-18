@@ -24,7 +24,7 @@ export default class Home extends Component {
                             alt="First slide"
                         />
                     <Carousel.Caption className="i11">
-                        <h1 class="display-1"><strong>Passionate.</strong></h1>
+                        <h1 class="display-1"><strong>Creative.</strong></h1>
                         <blockquote class="blockquote text-right">
                         <p class="mb-0 p0">“Man who invented the hamburger was smart; man who invented the chesseburger was a genius”</p>
                         <footer class="blockquote-footer">Matthew McConaughey </footer>
@@ -78,21 +78,6 @@ export default class Home extends Component {
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
-
-                {/* <div class="container-fliud padding">
-                    <div class="row welcome text-center">
-                        <div class="col-12">
-                            <h1 class="display-4">Personal landing page.</h1>
-                        </div>
-                        <hr/>
-                        <div class="col-12">
-                            <p class="lead">
-                                Welcome to my website! I am a fourth year math student at the University of British Columbia.
-                                This website is where I can share a little bit about myself with the online world! 
-                            </p>
-                     </div>
-               </div>
-            </div> */}
 
                 </FadeIn>
 
