@@ -7,8 +7,30 @@ import 'react-vertical-timeline-component/style.min.css';
 import './About.css';
 import Resume from '../assets/resume.pdf'
 import ButtonUI from '@material-ui/core/Button';
+import ReactTextTransition, { presets } from "react-text-transition";
+
+const randomNumber = () => Math.floor(Math.random() * 9999999999 + 10000000000);
+
+const texts = ["Samuel Lin", "Math Student", "Programmer" , "Basketball Fanatic"];
 
 export default class About extends Component {
+    state ={
+        number: randomNumber(),
+        textIndex: 0,
+
+    }
+
+    componentDidMount(){
+        setInterval(() => {
+            this.setState({
+              number: randomNumber(),
+              textIndex: this.state.textIndex + 1,
+            });
+          }, 4000);
+
+    }
+
+
     render(){
         return(
             <FadeIn>
@@ -25,12 +47,18 @@ export default class About extends Component {
                         </Col>
                         <Col xs={12} sm={6} className="pwerson-wrapper aa1">
                             <div className="backgroundt">
-                            <h3 class="name"> Hi! My name is</h3>
-                            <h2 class="display-4 name2"> Samuel Lin.</h2>
+                            <h2 class="display-4 name2">      
+                            
+                                            <ReactTextTransition
+                                            text={texts[this.state.textIndex % texts.length]}
+                                            spring={presets.gentle}
+                                            inline
+                                            />
+                            </h2>
                             <hr class="light"/>
                             <p>I am a fifth year student at the University of British Columbia majoring in Mathematics and minoring in Commerce. 
                                 I thrive towards becoming a person with the mind of a mathematician and the technical skills of a software developer. 
-                                I believe the combination of both can allow me to build applications that can be useful and meaningful. </p>
+                                I believe the combination of both can allow me to build applications that are useful and meaningful. </p>
 
                             <p>I am looking for opportunities as a software developer , data analyst, or UX/UI designer. Lets get in touch! </p>
 
@@ -69,6 +97,19 @@ export default class About extends Component {
                         <Col>
                             
                          <VerticalTimeline className="vertical-timeline-custom-line">
+
+                         <VerticalTimelineElement
+                                    className="vertical-timeline-element--work"
+                                    date="2020 - present"
+                                    iconStyle={{ background: '#475c6c', color: '#fff'}}
+                                   
+                                >
+                                    <h4 style={{fontSize: '1.1em' , color:'#475c6c'}} className="vertical-timeline-element-title">Web Communications Assistant</h4>
+                                    <h6 style={{fontSize: '0.8em'}}className="vertical-timeline-element-subtitle">University of British Columbia - Vancouver, B.C.</h6>
+                                        <p style={{fontSize : '0.75em'}}>
+                                         Communication , Web Maintenance , Creative Direction
+                                        </p>
+                                </VerticalTimelineElement>
 
 
                             <VerticalTimelineElement
@@ -197,6 +238,12 @@ export default class About extends Component {
 
 
                 </Row>
+                <div className="container-fluid padding text-center  info">
+                <hr className="light"/>
+                <p className="info">778-968-1495</p>
+                <p className="info">Samuel3218888@gmail.com</p>      
+                <p className="info">Vancouver , B.C. </p>         
+            </div>
                 </Container>
 
 

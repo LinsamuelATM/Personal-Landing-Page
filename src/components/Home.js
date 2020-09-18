@@ -15,6 +15,7 @@ export default class Home extends Component {
     render(){
         return(
             <div>
+
                 <FadeIn>
                     <Carousel className="carousel" >
                         <Carousel.Item className="i1">
@@ -78,6 +79,13 @@ export default class Home extends Component {
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
+
+                <div className="container-fluid padding text-center  info">
+                    <hr className="light"/>
+                    <p className="info">778-968-1495</p>
+                    <p className="info">Samuel3218888@gmail.com</p>      
+                    <p className="info">Vancouver , B.C. </p>         
+                 </div>
 
                 </FadeIn>
 

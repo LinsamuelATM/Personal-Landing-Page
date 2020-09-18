@@ -6,7 +6,7 @@ import movierater from '../assets/movierater.png'
 import bitcoin from '../assets/bitcoin.png'
 import organizer from '../assets/Organizer.png'
 import atm from '../assets/atm.jpeg'
-import s2 from '../assets/s2.png'
+import s2 from '../assets/Sorting.png'
 import bitcoinEssay from '../assets/Essay.pdf'
 import bitcoinPresentation from '../assets/Solution.pdf'
 import books from '../assets/books.jpg'
@@ -259,31 +259,32 @@ export default class Project extends Component {
                                     <Card.Title>
                                         
                                       
-                                            <span style={{fontSize : '0.7em' , color:'#475c6c'}}>Star Social Web application </span> 
+                                            <span style={{fontSize : '0.7em' , color:'#475c6c'}}>Sort Alogrithms Visualizer </span> 
                                     </Card.Title>
 
                                     <Card.Text>
 
-                                        <span style={{fontSize : '0.7em'}} > Dijango , Postman </span> 
+                                        <span style={{fontSize : '0.7em'}} > Javascript , React,js , CSS </span> 
 
                                     </Card.Text>
 
                                     <Collapse in={this.state.modal_5}>
 
+                                        <div>
+
                                 
                                             <Card.Text>
                                                  
-                                                This is a social Web application where the user can create groups/forum and discuss different topics about space.
-                                                This project is  built with Dijango and utilizes the built-in SQLite datebase. 
-                                                Using the templte libary I am able to create different views for different features.
-                                                There is also a certain level of security incorporated into this project. By using the built-in admin feature only superusers of the application 
-                                                is able to login to the application. On the otherhand, new users are able to sign up.
+                                                This is a application that visualizes the 4 popular sorting algorithms: Merge Sort , Quick Sort , Heap Sort , Bubble Sort.
                                                  
 
-                                        
-                                            
                                             </Card.Text>
 
+                                            <Button variant="outline-secondary" style={{marginRight: '1.5%'}} className="resume_button" href={'https://github.com/LinsamuelATM/Sorting-Algorithm-Visualizer'} > 
+                                                Git 
+                                            </Button>
+
+                                        </div>
                                   
 
                                     </Collapse>
@@ -379,6 +380,13 @@ export default class Project extends Component {
 
 
                 </Row>
+
+                <div className="container-fluid padding text-center  info">
+                <hr className="light"/>
+                <p className="info">778-968-1495</p>
+                <p className="info">Samuel3218888@gmail.com</p>      
+                <p className="info">Vancouver , B.C. </p>         
+            </div>
 
                 </Container>
                    
