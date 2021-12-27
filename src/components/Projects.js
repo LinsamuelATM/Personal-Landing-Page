@@ -6,6 +6,7 @@ import movierater from '../assets/movierater.png'
 import bitcoin from '../assets/bitcoin.png'
 import organizer from '../assets/Organizer.png'
 import s2 from '../assets/Sorting.png'
+import mag2021 from '../assets/mag2021.png'
 import bitcoinEssay from '../assets/Essay.pdf'
 import bitcoinPresentation from '../assets/Solution.pdf'
 import trip from '../assets/TripPlanner.png'
@@ -81,6 +82,47 @@ export default class Project extends Component {
                     <hr class="light"/>
                 
                 <Row>
+
+                <Col sm="4">
+                        <Card style={{ width: '18.5rem' }} className="border-light todo_card" onClick={()=> this.setModal_6()}>
+                            <Card.Img variant="top" src={mag2021} />
+                            <Card.Body>
+                                    <Card.Title>
+                                        
+                                      
+                                            <span style={{fontSize : '0.7em' , color:'#475c6c'}}>Ubyssey Magazine 2021</span> 
+                                    </Card.Title>
+
+                                    <Card.Text>
+
+                                        <span style={{fontSize : '0.7em'}} > Django, Python, Javascript , React,js , CSS </span> 
+
+                                    </Card.Text>
+
+                                    <Collapse in={this.state.modal_6}>
+
+                                        <div>
+
+                                
+                                            <Card.Text>
+                                                 
+                                                This is a stand-alone website that I've developed during my time with the Ubyssey Publciations
+                                                 
+
+                                            </Card.Text>
+
+                                            <Button variant="outline-secondary" style={{marginRight: '1.5%'}} className="resume_button" href={'https://www.ubyssey.ca/magazine/2021/'} > 
+                                                Website
+                                            </Button>
+
+                                        </div>
+                                  
+
+                                    </Collapse>
+                                    </Card.Body>
+
+                        </Card>
+                    </Col>
                     
                 <Col sm="2" md="4">
                         <Card style={{ width: '18.5rem' }} className="border-light todo_card" onClick={()=> this.setModal_1()}>
