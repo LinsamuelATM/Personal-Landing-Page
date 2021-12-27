@@ -4,7 +4,9 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import './About.css';
 import ButtonUI from '@material-ui/core/Button';
-import ReactTextTransition, { presets } from "react-text-transition";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookSquare, faGithubAlt } from '@fortawesome/free-brands-svg-icons' 
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons' 
 
 export default class Timeline extends Component {
     render() {
@@ -12,7 +14,7 @@ export default class Timeline extends Component {
             <Container>
             <div>
 
-                <h2 className="text-center display-4 c">Timeline.</h2>
+                <h2 className="text-center display-4 c">Experience.</h2>
                     <hr className="light"/>
 
                         <Row>
@@ -73,6 +75,7 @@ export default class Timeline extends Component {
                                 <h4 style={{fontSize: '1.1em' , color: '#475c6c'}} className="vertical-timeline-element-title">Brand Ambassador/Manager</h4>
                                 <h6 style={{fontSize: '0.8em'}} className="vertical-timeline-element-subtitle">Preview Careers – Vancouver, B.C.</h6>
                                 <p style={{fontSize : '0.75em'}}>Marketing , Sales , Public Relations , Visual Desgin , Content Creation</p>
+                                <p><ButtonUI variant="outlined" size="small" style={{color: '#475c6c'}} href="https://www.facebook.com/PreviewCareers">Facebook Page</ButtonUI></p>
 
                             </VerticalTimelineElement>
 
@@ -144,9 +147,15 @@ export default class Timeline extends Component {
                         <li>0987-081-495</li>
                         <li>samuel3218888@gmail.com</li>
                         <li className="third-li">Taipei, Taiwan</li>
-                        
-                    </ul>         
-            </div>
+                        <ul className="social-media-ul"> 
+                            <li> <a href="https://www.facebook.com/samuel.lin.372"><FontAwesomeIcon  icon={faFacebookSquare} /></a> </li>
+                            <li> <a href="https://www.linkedin.com/in/samuel-lin-40ba1a121/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                            <li>  <a href="https://github.com/LinsamuelATM?tab=repositories"><FontAwesomeIcon icon={faGithubAlt} /></a></li>
+
+
+                        </ul>
+                    </ul>
+                </div>
                     
             </Container>
         )

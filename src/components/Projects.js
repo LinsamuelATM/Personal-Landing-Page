@@ -5,12 +5,13 @@ import './Project.css'
 import movierater from '../assets/movierater.png'
 import bitcoin from '../assets/bitcoin.png'
 import organizer from '../assets/Organizer.png'
-import atm from '../assets/atm.jpeg'
 import s2 from '../assets/Sorting.png'
 import bitcoinEssay from '../assets/Essay.pdf'
 import bitcoinPresentation from '../assets/Solution.pdf'
-import books from '../assets/books.jpg'
 import trip from '../assets/TripPlanner.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookSquare, faGithubAlt } from '@fortawesome/free-brands-svg-icons' 
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons' 
 
 
 
@@ -93,7 +94,7 @@ export default class Project extends Component {
                                     </Card.Title>
                                     <Card.Text>
 
-                                   <span style={{fontSize : '0.7em'}} >React , Dijango , Postman , HTML/CSS , PostGreSQL </span> 
+                                   <span style={{fontSize : '0.7em'}} >React , Dijango , HTML/CSS , PostGreSQL </span> 
 
                                     </Card.Text>
 
@@ -293,100 +294,23 @@ export default class Project extends Component {
                         </Card>
                     </Col>
 
-                    <Col sm="4">
-                        <Card style={{ width: '18.5rem' }} className="border-light todo_card" onClick={()=> this.setModal_6()}>
-                            <Card.Img variant="top" src={atm } />
-                            <Card.Body>
-                                    <Card.Title>
-                                        
-                                      
-                                            <span style={{fontSize : '0.7em' , color:'#475c6c'}}>Mock ATM Java Program </span> 
-                                    </Card.Title>
-
-                                    <Card.Text>
-
-                                    <span style={{fontSize : '0.7em'}} > Java  </span> 
-
-                                    </Card.Text>
-
-                                    <Collapse in={this.state.modal_6}>
-
-                              
-                                            <Card.Text>
-
-                                            
-                                                A banking software programmed using Java and eclipse that utilizes the concepts of inheritance, encapsulation, and polymorphism.
-                                                The program allows the user to set up different types of accounts, withdrawal , and deposit with real time summary.
-                                                This project allowed me to program with good habits such as structuring my codes with high cohesion and loose coupling. 
-                                            
-
-                                        
-                                            
-                                            </Card.Text>
-
-                                
-
-                                    </Collapse>
-
-                                    </Card.Body>
-
-                        </Card>
-                    </Col>
-
-                    <Col sm="4">
-                        <Card style={{ width: '18.5rem' }} className="border-light todo_card" onClick={()=> this.setModal_7()}>
-                            <Card.Img variant="top" src={books } />
-                            <Card.Body>
-                                    <Card.Title>
-                                        
-                                      
-                                            <span style={{fontSize : '0.7em' , color:'#475c6c'}}>JDBC Book tracker with Swing UI</span> 
-                                    </Card.Title>
-
-                                    <Card.Text>
-
-                                    <span style={{fontSize : '0.7em'}} > Java  </span> 
-
-                                    </Card.Text>
-
-                                    <Collapse in={this.state.modal_7}>
-
-                                        <div>
-
-                              
-                                            <Card.Text>
-
-                                            
-                                             Full stack Java application with data access pattern that utilizes Swing’s GUI toolkit allowing users to view customers records in a simulated library in the mssql database.
-                                             Implemented the filtering functionality that allows the user to search by names, customer id to find books or prices to find books. 
-                                             The app parses data files such as .txt and .xml and transferred data into the database
-                                            
-                                            </Card.Text>
-
-                                            <Button variant="outline-secondary" style={{marginRight: '1.5%'}} className="resume_button" href={'https://github.com/LinsamuelATM/JDBC-Application-Bookstare-data-tracker'} > 
-                                                Git 
-                                            </Button>
-
-                                        </div>
-
-                                
-
-                                    </Collapse>
-
-                                    </Card.Body>
-
-                        </Card>
-                    </Col>
-
-
                 </Row>
 
                 <div className="container-fluid padding text-center  info">
-                <hr className="light"/>
-                <p className="info">778-968-1495</p>
-                <p className="info">Samuel3218888@gmail.com</p>      
-                <p className="info">Vancouver , B.C. </p>         
-            </div>
+                    <hr className="light"/>
+                    <ul className='info-list'>
+                        <li>0987-081-495</li>
+                        <li>samuel3218888@gmail.com</li>
+                        <li className="third-li">Taipei, Taiwan</li>
+                        <ul className="social-media-ul"> 
+                            <li> <a href="https://www.facebook.com/samuel.lin.372"><FontAwesomeIcon  icon={faFacebookSquare} /></a> </li>
+                            <li> <a href="https://www.linkedin.com/in/samuel-lin-40ba1a121/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                            <li>  <a href="https://github.com/LinsamuelATM?tab=repositories"><FontAwesomeIcon icon={faGithubAlt} /></a></li>
+
+
+                        </ul>
+                    </ul>
+                </div>
 
                 </Container>
                    

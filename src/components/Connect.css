@@ -59,11 +59,22 @@
 }
 
 .third-li {
-  padding-bottom: 20px;
 }
 
 .centeri {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.social-media-ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.social-media-ul li a {
+  color: lightslategray;
 }

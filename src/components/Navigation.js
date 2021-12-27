@@ -11,9 +11,8 @@ class Navigation extends Component {
               <Navbar.Brand href="/"><img src={Logo} alt="logo"/></Navbar.Brand>
               <Nav className="">
                 <Nav.Link href="/">Myself</Nav.Link>
-                <Nav.Link href="/timeline">Timeline</Nav.Link>
+                <Nav.Link href="/timeline">Experience</Nav.Link>
                 <Nav.Link href="/projects">Projects</Nav.Link>
-                <Nav.Link href="/connect">Connect</Nav.Link>
               </Nav>
             </Navbar>
           </Container>
