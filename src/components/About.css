@@ -1,88 +1,80 @@
-.aa1{
-    color: black;
-    padding:8%;
-    
+.aa1 {
+  color: black;
+  padding: 8%;
 }
 
-
-
-.profile1{
-    height:50%;
-    width: 45%;
-    box-shadow: 30px 30px lightblue;
-    position: relative;
-    right: -250px;
-    top: 70px;
+.profile1 {
+  height: 50%;
+  width: 45%;
+  box-shadow: 25px 15px white, 30px 20px lightslategray;
+  border: 2px black;
+  position: relative;
+  right: -250px;
+  top: 70px;
 }
 
-.backgroundt{
-    position: relative;
-    left: -70px;
+.profile-row {
+  margin-bottom: 150px;
 }
 
-.name{
-    color: #82BBB5;
-
+.backgroundt {
+  position: relative;
+  left: -70px;
 }
 
-.resume_button:hover{
-    color: white;
-
+.name {
+  color: #82bbb5;
 }
 
-.resume{
-    color: #6c757d
+.resume_button:hover {
+  color: white;
 }
 
-.resume:hover{
-    color: white;
-    text-decoration: none;
+.resume {
+  color: #6c757d;
 }
 
-.name2{
-    
-    color:#CA884B;
+.resume:hover {
+  color: white;
+  text-decoration: none;
 }
 
-.profile2{
-    top: 30px;
-    right: -50px;
-    position: relative;
-    height:90%;
-    width: 65%;
-    box-shadow: 30px 30px lightpink;
+.name2 {
+  color: #ca884b;
 }
 
-.workt{
-    top: 30px;
-    position: relative;
-    left: 40px;
+.profile2 {
+  top: 30px;
+  right: -50px;
+  position: relative;
+  height: 90%;
+  width: 65%;
+  box-shadow: 30px 30px lightpink;
 }
 
-.name3{
-    color: #CA884B;
+.workt {
+  top: 30px;
+  position: relative;
+  left: 40px;
+}
+
+.name3 {
+  color: #ca884b;
 }
 
 .vertical-timeline-element-icon {
-    left: 52% !important;
-    top: 12% !important;
-    width: 20px !important;
-    height: 20px !important;
+  left: 52% !important;
+  top: 12% !important;
+  width: 20px !important;
+  height: 20px !important;
 }
 
 .vertical-timeline.vertical-timeline-custom-line::before {
-    position: absolute;
-    right: 50%;
-    background:#DCDCDC  !important;
-  }
+  position: absolute;
+  right: 50%;
+  background: #dcdcdc !important;
+}
 
-  .vertical-timeline-element-content{
-      background: #EBECF0;
-  }
-
-
-
-
-
-
-
+.vertical-timeline-element-content {
+  background: #ebecf0;
+}

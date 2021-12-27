@@ -1,117 +1,114 @@
-.jumbotron{
-    margin-bottom: 4em;
-    padding: 1em;
-    border-radius: 0;
+.jumbotron {
+  margin-bottom: 4em;
+  padding: 1em;
+  border-radius: 0;
 }
 
 .person-wrapper {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .profile-pic {
-    width:50%;
+  width: 50%;
 }
 
-.btn-primary{
-    background-image:none;
-    border:none;
-    border-radius:0;
-    background-color: skyblue;
+.btn-primary {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  background-color: skyblue;
 }
 
-h1{
-    font-weight: bold;
-    font-size: 50px;
+h1 {
+  font-weight: bold;
+  font-size: 50px;
 }
 
-h3{
-   color:black;
+h3 {
+  color: black;
 }
 
-p{
- color:black;
+p {
+  color: black;
 }
 
-body{
-    height: 100%;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    color: #222;
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #222;
 }
 
-.img0{
-    width:640px;
-    height:850px;
+.img0 {
+  width: 640px;
+  height: 850px;
 }
 
-.p0{
-    color: white;
+.p0 {
+  color: white;
 }
 
-.img1{
-    width:640px;
-    height:850px;
+.img1 {
+  width: 640px;
+  height: 850px;
 }
 
-.p1{
-    color:white;
+.p1 {
+  color: white;
 }
 
-.img2{
-    width:640px;
-    height:850px;
+.img2 {
+  width: 640px;
+  height: 850px;
 }
 
-.p2{
-    color: white;
+.p2 {
+  color: white;
 }
 
-.img3{
-    width:640px;
-    height:850px;
+.img3 {
+  width: 640px;
+  height: 850px;
 }
 
-.p3{
-    color :white;
+.p3 {
+  color: white;
 }
 
-.f3{
-    color:black;
+.f3 {
+  color: black;
 }
 
 .i11 {
-    position: absolute;
-    top: 59%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 59%;
+  transform: translateY(-50%);
 }
 
 .i12 {
-    position: absolute;
-    top: 60%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
 }
 
 .i13 {
-    position: absolute;
-    top: 56%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 56%;
+  transform: translateY(-50%);
 }
 
 .i14 {
-    position: absolute;
-    top: 60%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
 }
 
-
-.carousel{
-    position: relative;
-    top: -24px;
+.carousel {
+  position: relative;
+  top: -24px;
 }
 
-body{
-    color: lightslategray;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  color: lightslategray;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-
