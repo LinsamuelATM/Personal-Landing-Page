@@ -1,108 +1,92 @@
-.wrapper{
-    width:90%;
-    margin:0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-auto-rows: 400px;
-    grid-gap: 20px;
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 400px;
+  grid-gap: 20px;
 }
 
-.card{
-    margin-left: 8% !important;
-    margin-bottom: 20% !important;
-    box-shadow: 3px 5px 5px lightgray;
+.card {
+  margin-left: 8% !important;
+  margin-bottom: 20% !important;
+  box-shadow: 3px 5px 5px lightgray;
 }
 
-.card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
-    cursor: pointer;
-    border-top-left-radius: 1rem !important;
-    border-top-right-radius: 1rem !important;
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+  cursor: pointer;
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
 }
 
 .card-img-top {
-    width: 100%;
-    height: 10vw;
-    object-fit: cover;
+  width: 100%;
+  height: 10em;
+  object-fit: cover;
 }
 
-
-
-
-
-.m1{
-    height: 50%;
-    width: 50%;
-    position: relative;
-    top: 10px;
+.m1 {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: 10px;
 }
 
-.m2{
-    height: 50%;
-    width: 70%;
-    position: relative;
-    top: -20px;
-    right: -150px;
+.m2 {
+  height: 50%;
+  width: 70%;
+  position: relative;
+  top: -20px;
+  right: -150px;
 }
 
-
-
-.Pro1{
-    color: #CA884B;
+.Pro1 {
+  color: #ca884b;
 }
 
-
-
-
-.Pro2{
-    color: #1D6A96;
+.Pro2 {
+  color: #1d6a96;
 }
- .s1{
-     height: 50%;
-     width: 50%;
-     position: relative;
-     left : -5px;
-     top: -5px;
- }
-
- .s2{
-    height: 50%;
-    width: 50%;
-    position: relative;
-    top: -5px;
+.s1 {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  left: -5px;
+  top: -5px;
 }
 
-.s3{
-    height: 50%;
-    width: 50%;
-    position: relative;
-    top: 5px;
-    left : -5px;
+.s2 {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: -5px;
 }
 
-.s4{
-    height: 50%;
-    width: 50%;
-    position: relative;
-    top: 5px;
+.s3 {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: 5px;
+  left: -5px;
 }
 
-
-
-.Pro3{
-    color:  #7FB174;
+.s4 {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: 5px;
 }
 
-
-.Pro4{
-    color:darkred;
+.Pro3 {
+  color: #7fb174;
 }
 
+.Pro4 {
+  color: darkred;
+}
 
-
-
-
-p{
-    font-size: 15px;
-     color: lightslategrey;
+p {
+  font-size: 15px;
+  color: lightslategrey;
 }

@@ -52,6 +52,7 @@
 
 .info-list {
   list-style: none;
+  padding: 0px;
 }
 
 .info-list li {

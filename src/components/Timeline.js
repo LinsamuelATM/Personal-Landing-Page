@@ -3,6 +3,7 @@ import {Container, Row , Col, Button} from 'react-bootstrap';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './About.css';
+import './Timeline.css'
 import ButtonUI from '@material-ui/core/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare, faGithubAlt } from '@fortawesome/free-brands-svg-icons' 
@@ -19,7 +20,7 @@ export default class Timeline extends Component {
 
                         <Row>
                          
-                                <h4 class="text-center" >Employment History</h4>
+                                <h4 class="text-center sub-title" >Employment History</h4>
                                 <hr class="light"/>
                          
                          </Row>
@@ -98,7 +99,7 @@ export default class Timeline extends Component {
                 <Row>
 
                    
-                        <h4 class="text-center" >Education</h4>
+                        <h4 class="text-center sub-title" >Education</h4>
                         <hr class="light"/>
                     
 

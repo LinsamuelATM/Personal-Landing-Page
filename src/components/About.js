@@ -135,10 +135,10 @@ export default class About extends Component {
                     <hr class="light"/>
                 <Row className="show-grid profile-row">
                         <Col xs={12} sm={6} className="pwerson-wrapper a1">
-                            <div className="pic1b">
+                        
                             <div className="pic1">
                             <img src={Profile} alt="profile2" className="profile1"/>
-                            </div>
+                            
                             </div>
                         </Col>
                         <Col xs={12} sm={6} className="pwerson-wrapper aa1">
