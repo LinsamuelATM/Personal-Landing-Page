@@ -125,7 +125,7 @@ export default class About extends Component {
                     </Container> 
 
                     </Modal>
-                    <h2 class="display-4 a text-center">    
+                    <h2 className="display-4 a text-center">    
                     
                         Hello, I'm Sam.
                         

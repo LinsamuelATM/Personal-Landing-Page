@@ -20,8 +20,8 @@ export default class Timeline extends Component {
 
                         <Row>
                          
-                                <h4 class="text-center sub-title" >Employment History</h4>
-                                <hr class="light"/>
+                                <h4 className="text-center sub-title" >Employment History</h4>
+                                <hr className="light"/>
                          
                          </Row>
 

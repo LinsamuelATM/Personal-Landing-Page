@@ -1,33 +1,41 @@
-.Logo{
-    max-width:20%;
-    height:auto;
+.Logo {
+  max-width: 20%;
+  height: auto;
 }
 
-
-.navbar{
-    padding: .8rem;
+.navbar {
+  padding: 0.8rem;
 }
 
-.navb{
-    background-color: blue;
+.navb {
+  background-color: blue;
 }
 
-a.navbrand{
-    padding:0;
-    margin:0px;
+a.navbrand {
+  padding: 0;
+  margin: 0px;
 }
 
-.container-fluid{
-    background-color: aqua;
+.navbat-nav li {
+  padding-right: 20px;
 }
 
-.navbat-nav li{
-    padding-right: 20px;
+.nav-link {
+  font-size: 1.1em !important;
 }
 
-.nav-link{
-    font-size: 1.1em !important;
+.navlist {
+  list-style: none;
+  display: flex;
+  padding: 0px;
 }
 
+.navlist li {
+  padding: 10px;
+  color: lightslategray;
+}
 
-
+.navlist li:hover {
+  cursor: pointer;
+  color: black;
+}

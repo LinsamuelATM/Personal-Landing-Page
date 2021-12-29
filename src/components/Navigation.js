@@ -1,6 +1,7 @@
 import React , {Component} from 'react';
 import {Nav , Navbar, Container}    from 'react-bootstrap';
 import Logo from '../assets/logo.png'
+import './Nav.css'
 
 class Navigation extends Component {
     render(){
@@ -9,10 +10,12 @@ class Navigation extends Component {
           <Container>
             <Navbar>
               <Navbar.Brand href="/"><img src={Logo} alt="logo"/></Navbar.Brand>
-              <Nav className="">
-                <Nav.Link href="/">Myself</Nav.Link>
-                <Nav.Link href="/timeline">Experience</Nav.Link>
-                <Nav.Link href="/projects">Projects</Nav.Link>
+              <Nav>
+                <ul className="navlist"> 
+                  <li onClick={() => this.props.handlepage('Myself')}>Myself</li>
+                  <li onClick={() => this.props.handlepage('Experience')}>Experience</li>
+                  <li onClick={() => this.props.handlepage('Projects')}>Projects</li>
+                </ul>
               </Nav>
             </Navbar>
           </Container>

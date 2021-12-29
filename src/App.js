@@ -4,20 +4,20 @@ import {BrowserRouter as Router , Route} from 'react-router-dom';
 import About from './components/About';
 import Project from './components/Projects';
 import Navigation from './components/Navigation';
-import Connect from './components/Connect';
 import Timeline from './components/Timeline'
 import Loading from './components/Loading'
+import Webpage from './components/Webpage_container'
 
 class App extends Component  {
 
   state ={
-    isloading: true
+    isloading: true,
+    currentpage: 'Myself'
   }
 
 
   componentDidMount() {
 
-    
     setTimeout(
         function () {
             this.setState({ isloading: false });
@@ -25,12 +25,21 @@ class App extends Component  {
             .bind(this),
         2500
     );
-
-    
-
 }
 
+handle_currentpage = (page) => {
+  this.setState({
+    currentpage: page
+  })
+}
+
+
+
+
+
   render() {
+
+    console.log(this.state.currentpage)
     
     return (
 
@@ -46,11 +55,8 @@ class App extends Component  {
                                   width: "100%",
                                   height: "100%"
                                 }}>
-                          <Navigation/>
-                            <Route exact path="/" component={About} />
-                            <Route exact path="/timeline" component={Timeline}/>
-                            <Route exact path="/projects" component={Project} />
-                            <Route exact path="/connect" component={Connect}/>
+                          <Navigation handlepage={this.handle_currentpage}/>
+                            <Route exact path="/"  render={(props) => (<Webpage {...props} currentpage={this.state.currentpage} />)} />
                         </div>
                     </Router>
         </div>

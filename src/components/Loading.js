@@ -8,7 +8,7 @@ class Loading extends Component {
     render(){
 
       return(
-        <div class="image-container"> 
+        <div className="image-container"> 
 	       
           <img src={animation} alt="animation" />
        
