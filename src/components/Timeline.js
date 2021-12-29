@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Container, Row , Col, Button} from 'react-bootstrap';
+import {Container, Row , Col} from 'react-bootstrap';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './About.css';

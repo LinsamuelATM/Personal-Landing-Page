@@ -13,8 +13,6 @@ import emailjs from 'emailjs-com';
 
 const randomNumber = () => Math.floor(Math.random() * 9999999999 + 10000000000);
 
-const texts = ["Samuel Lin", "Math Student", "Programmer" , "Basketball Fanatic"];
-
 export default class About extends Component {
     state ={
         number: randomNumber(),
