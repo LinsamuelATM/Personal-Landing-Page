@@ -141,11 +141,11 @@ export default class About extends Component {
                         </Col>
                         <Col xs={12} sm={6} className="pwerson-wrapper aa1">
                             <div className="backgroundt">
-                            <p>I am a recent graduate from the University of British Columbia majoring in Mathematics and minoring in Commerce. 
+                            <p> I am a recent graduate from the University of British Columbia, majored in Mathematics and minored in Commerce. 
                                 I thrive towards becoming a person with the mind of a mathematician and the soft skills of a salesman. 
-                                I believe the combination of both can push me to become a best version of myself . </p>
+                                I believe the combination of both can push me to become a best version of myself. </p>
 
-                            <p>I am looking for opportunities as a software developer , data analyst, or technical sales. Lets get in touch! </p>
+                            <p>I am looking for opportunities as a software developer, data analyst, or technical sales. Lets get in touch! </p>
 
                             <Button variant="outline-secondary" style={{marginRight: '3%'}} className="resume_button" download="Sam_Lin_resume.pdf" href={Resume}> 
                                  Resume  
