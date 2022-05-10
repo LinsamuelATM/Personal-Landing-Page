@@ -4,7 +4,7 @@ import {Container, Row , Col, Button , Form} from 'react-bootstrap';
 import Profile from '../assets/profile.jpg';
 import 'react-vertical-timeline-component/style.min.css';
 import './About.css';
-import Resume from '../assets/resume.pdf'
+import Resume from '../assets/resume(2).pdf'
 import Modal from 'react-awesome-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare, faGithubAlt } from '@fortawesome/free-brands-svg-icons' 
@@ -142,10 +142,10 @@ export default class About extends Component {
                         <Col xs={12} sm={6} className="pwerson-wrapper aa1">
                             <div className="backgroundt">
                             <p> I am a recent graduate from the University of British Columbia, majored in Mathematics and minored in Commerce. 
-                                I thrive towards becoming a person with the mind of a mathematician and the soft skills of a salesman. 
+                                I thrive towards becoming a person with the mind of a mathematician and the soft skills of a consultant. 
                                 I believe the combination of both can push me to become a best version of myself. </p>
 
-                            <p>I am looking for opportunities as a software developer, data analyst, or technical sales. Lets get in touch! </p>
+                            <p>I am looking for opportunities as a SAP consultant or technology sales. Lets get in touch! </p>
 
                             <Button variant="outline-secondary" style={{marginRight: '3%'}} className="resume_button" download="Sam_Lin_resume.pdf" href={Resume}> 
                                  Resume  
@@ -165,7 +165,7 @@ export default class About extends Component {
                     <ul className='info-list'>
                         <li>0987-081-495</li>
                         <li>samuel3218888@gmail.com</li>
-                        <li className="third-li">Taipei, Taiwan</li>
+                        <li className="third-li">Last Updated: May 10th, 2022 </li>
                         <ul className="social-media-ul"> 
                             <li> <a href="https://www.facebook.com/samuel.lin.372"><FontAwesomeIcon  icon={faFacebookSquare} /></a> </li>
                             <li> <a href="https://www.linkedin.com/in/samuel-lin-40ba1a121/"><FontAwesomeIcon icon={faLinkedin} /></a></li>

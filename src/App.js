@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
 import "bootstrap/dist/css/bootstrap.css";
 import {BrowserRouter as Router , Route} from 'react-router-dom';
-import About from './components/About';
-import Project from './components/Projects';
 import Navigation from './components/Navigation';
-import Timeline from './components/Timeline'
 import Loading from './components/Loading'
 import Webpage from './components/Webpage_container'
 

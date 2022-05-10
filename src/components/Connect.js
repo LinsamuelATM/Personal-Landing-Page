@@ -121,7 +121,7 @@ export default class Connect extends Component{
                     <ul className='info-list'>
                         <li>0987-081-495</li>
                         <li>samuel3218888@gmail.com</li>
-                        <li className="third-li">Taipei, Taiwan</li>
+                        <li className="third-li">Last Updated: May 10th, 2022 </li>
                         <ul className="social-media-ul"> 
                             <li> <a href="https://www.facebook.com/samuel.lin.372"><FontAwesomeIcon  icon={faFacebookSquare} /></a> </li>
                             <li> <a href="https://www.linkedin.com/in/samuel-lin-40ba1a121/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
